@@ -8,6 +8,8 @@ cd datasets
 git clone https://gitlab.com/fdlm/olga.git
 git clone https://github.com/jongpillee/music_dataset_split.git # for check msd
 wget http://millionsongdataset.com/sites/default/files/AdditionalFiles/track_metadata.db # for meta mapping
+wget http://millionsongdataset.com/sites/default/files/challenge/train_triplets.txt.zip # for popularity
+unzip train_triplets.txt.zip
 ```
 
 ### Mapping (OLGA Artist -> MSD Track)
